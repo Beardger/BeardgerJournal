@@ -1,0 +1,27 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h1 {
+  text-align:center;
+}
+li {
+  margin-bottom: 10px;
+}
+.Periodic td {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 5px groove;
+}
+#empty td {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 0px groove;
+}
+
+.Explanations {
+  display: none;
+}
