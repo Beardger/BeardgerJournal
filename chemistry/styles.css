@@ -13,13 +13,11 @@ li {
   width: 20px;
   height: 20px;
   padding: 10px;
-  border: 5px groove;
+  border: 5px groove black;
 }
-#empty td {
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  border: 0px groove;
+
+#empty {
+  visibility: hidden;
 }
 
 .Explanations {
