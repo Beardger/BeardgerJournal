@@ -1,49 +1,49 @@
-function HydrogenText() {
-  var paragraph = document.getElementById("HydrogenText");
+function HText() {
+  var paragraph = document.getElementById("HText");
   paragraph.classList.toggle("Explanations");
 }
 
-function HeliumText() {
-  var paragraph = document.getElementById("HeliumText");
+function HeText() {
+  var paragraph = document.getElementById("HeText");
   paragraph.classList.toggle("Explanations");
 }
 
-function LithiumText() {
-  var paragraph = document.getElementById("LithiumText");
+function LiText() {
+  var paragraph = document.getElementById("LiText");
   paragraph.classList.toggle("Explanations");
 }
 
-function BerylliumText() {
-  var paragraph = document.getElementById("BerylliumText");
+function BeText() {
+  var paragraph = document.getElementById("BeText");
   paragraph.classList.toggle("Explanations");
 }
 
-function BoronText() {
+function BoText() {
   var paragraph = document.getElementById("BoronText");
   paragraph.classList.toggle("Explanations");
 }
 
-function CarbonText() {
-  var paragraph = document.getElementById("CarbonText");
+function CText() {
+  var paragraph = document.getElementById("CText");
   paragraph.classList.toggle("Explanations");
 }
 
-function NitrogenText() {
-  var paragraph = document.getElementById("NitrogenText");
+function NiText() {
+  var paragraph = document.getElementById("NText");
   paragraph.classList.toggle("Explanations");
 }
 
-function OxygenText() {
-  var paragraph = document.getElementById("OxygenText");
+function OText() {
+  var paragraph = document.getElementById("OText");
   paragraph.classList.toggle("Explanations");
 }
 
-function FluorideText() {
-  var paragraph = document.getElementById("FluorideText");
+function FText() {
+  var paragraph = document.getElementById("FlText");
   paragraph.classList.toggle("Explanations");
 }
 
-function NeonText() {
-  var paragraph = document.getElementById("NeonText");
+function NeText() {
+  var paragraph = document.getElementById("NeText");
   paragraph.classList.toggle("Explanations");
 }
