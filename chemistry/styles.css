@@ -2,6 +2,9 @@ body {
   margin-left: 15%;
   margin-right: 15%;
 }
+table {
+  min-width: 90vw;
+}
 @media screen and (max-width: 1400px) {
   body { margin: 0 5%;}
 }
