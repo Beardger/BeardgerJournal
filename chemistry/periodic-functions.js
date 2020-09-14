@@ -18,7 +18,7 @@ function BeText() {
   paragraph.classList.toggle("Explanations");
 }
 
-function BoText() {
+function BText() {
   var paragraph = document.getElementById("BoronText");
   paragraph.classList.toggle("Explanations");
 }
@@ -39,7 +39,7 @@ function OText() {
 }
 
 function FText() {
-  var paragraph = document.getElementById("FlText");
+  var paragraph = document.getElementById("FText");
   paragraph.classList.toggle("Explanations");
 }
 

@@ -2,11 +2,10 @@ body {
   margin: 0 5%;
   font-family: serif;
 }
+
+/* Table */
 table {
   min-width: 90vw;
-}
-@media screen and (max-width: 1400px) {
-  body { margin: 0 5%;}
 }
 .Periodic td {
   text-align: center;
@@ -15,14 +14,15 @@ table {
   border-radius: 0.3em;
   background-image: radial-gradient(farthest-side at 20% 20%, rgb(91,174,109,0.7) 90%, rgba(255, 255, 255, 1) 92%);
 }
-
 #empty {
   visibility: hidden;
 }
+
+
+/* Text */
 .Explanations {
   display: none;
 }
-
 .Flexbox {
   display: flex;
   align-items: center;
@@ -35,4 +35,31 @@ justify-content: center;
 }
 .Text {
   flex: 15 10 200px;
+}
+.Grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 5em;
+  width: 500px;
+    text-align: center;
+}
+#BorderRight {
+  border-right: 2px solid black;
+}
+#BorderLeft {
+  border-left: 2px solid black;
+}
+upper-grid {
+  border-bottom: 2px solid black;
+}
+.NonConductive {
+  position: relative;
+  left: -40px;
+  top: 15px;
+}
+.Conductive {
+  position: relative;
+  left: 38px;
+  top: 15px;
 }
