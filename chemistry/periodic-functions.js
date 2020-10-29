@@ -47,3 +47,13 @@ function NeText() {
   var paragraph = document.getElementById("NeText");
   paragraph.classList.toggle("Explanations");
 }
+
+function ClText() {
+  var paragraph = document.getElementById("NeText");
+  paragraph.classList.toggle("Explanations");
+}
+
+function ArText() {
+  var paragraph = document.getElementById("NeText");
+  paragraph.classList.toggle("Explanations");
+}
